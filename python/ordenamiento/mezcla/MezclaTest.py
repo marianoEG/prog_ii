@@ -1,3 +1,4 @@
+import numpy as np
 def ordenar(arr): 
 	if len(arr) >1: 
 		mitad = int(len(arr)/2) 
@@ -38,4 +39,9 @@ datos = [8, 5, 3, 9, 1, 4, 7]
 print ("Arreglo original: " + str(datos))
 ordenar(datos)
 print ("Arreglo ordenado: " + str(datos))
+
+datos1 = np.array([8, 5, 3, 9, 1, 4, 7])  
+print ("Arreglo original: " + str(datos1))
+ordenar(datos1)
+print ("Arreglo ordenado: " + str(datos1))
 
