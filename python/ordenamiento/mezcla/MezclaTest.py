@@ -33,10 +33,9 @@ def mezclar(arr, izquierda, derecha):
 			indiceDer+=1
 			indiceArr+=1
   
-# funcion main
-if __name__ == "__main__":
-	datos = [8, 5, 3, 9, 1, 4, 7]  
-	print ("Arreglo original: " + str(datos))
-	ordenar(datos)
-	print ("Arreglo ordenado: " + str(datos))
+
+datos = [8, 5, 3, 9, 1, 4, 7]  
+print ("Arreglo original: " + str(datos))
+ordenar(datos)
+print ("Arreglo ordenado: " + str(datos))
 
